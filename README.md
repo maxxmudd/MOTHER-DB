@@ -1,9 +1,9 @@
 # MOTHER-DB
-Python, Flask, JavaScript, HTML, Git - Coded 2024-2025. This repository describes my work done for the MOTHER-DB project.
+Python, Flask, JavaScript, HTML, Git - Coded 2024-2025. This repository describes my work done for the MOTHER-DB project. All contributions to this project are on a private repository, but are tracked in my Activity log. For questions or more information, please contact me through LinkedIn.
 
 [MOTHER-DB](https://mother-db.org/)
 
-From August 2024 to December 2025, I have been a contributor for the multispecies ovarian tissue histology electronic repository (MOTHER) at Arizona State University. MOTHER is a searchable database of ovary tissue histology slides with associated specimen metadata. The tool is designed to maintain data provenance and provide a resource for researchers to advance future discoveries in reproductive biology.
+From August 2024 to December 2025, I have been a contributor for the Multispecies Ovary Tissue Histology Electronic Repository (MOTHER) at Arizona State University, sponsored by the National Science Foundation (NSF). MOTHER is a searchable database containing ovary tissue histology slides with associated specimen metadata. The tool is designed to maintain data provenance and provide a resource for researchers to advance future discoveries in reproductive biology.
 
 My initial tasks were to develop input validation mechanisms for the ezEML+MOTHER tool, which is a fork of ezEML, a web application that streamlines the creation of metadata for ovary tissue specimens. MOTHER's extension of this tool adds additional data categories, including donor and immunohistochemistry information. I built upon the existing Flask-based forms in the tool, adding customized input validation mechanisms and updating form features to ensure invalid submissions do not reach MOTHER's curation stage, the backend system that processes metadata submissions to the MOTHER database. 
 
@@ -19,4 +19,4 @@ Towards the end of my research, I focused mainly on the backend curation process
 
 The result of this work has provided a secondary layer of protection for the MOTHER database, ensuring that all functioning components of the backend system are working properly for the curation stage, and that invalid XML documents do not get processed into the database.
 
-All contributions to this project are tracked in my Activity log. For more information, please contact me.
+
