@@ -1,7 +1,7 @@
 # MOTHER-DB
 Python, Flask, JavaScript, HTML, Git - Coded 2024-2025. This repository describes my work done for the MOTHER-DB project.
 
-https://mother-db.org/
+[MOTHER-DB](https://mother-db.org/)
 
 From August 2024 to December 2025, I have been a contributor for the multispecies ovarian tissue histology electronic repository (MOTHER). MOTHER is a searchable database of ovary tissue histology slides with associated specimen metadata. The tool is designed to maintain data provenance and provide a resource for researchers to advance future discoveries in reproductive biology.
 
