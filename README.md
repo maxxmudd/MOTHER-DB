@@ -3,7 +3,7 @@ Python, Flask, JavaScript, HTML, Git - Coded 2024-2025. This repository describe
 
 [MOTHER-DB](https://mother-db.org/)
 
-From August 2024 to December 2025, I have been a contributor for the multispecies ovarian tissue histology electronic repository (MOTHER). MOTHER is a searchable database of ovary tissue histology slides with associated specimen metadata. The tool is designed to maintain data provenance and provide a resource for researchers to advance future discoveries in reproductive biology.
+From August 2024 to December 2025, I have been a contributor for the multispecies ovarian tissue histology electronic repository (MOTHER) at Arizona State University. MOTHER is a searchable database of ovary tissue histology slides with associated specimen metadata. The tool is designed to maintain data provenance and provide a resource for researchers to advance future discoveries in reproductive biology.
 
 My initial tasks were to develop input validation mechanisms for the ezEML+MOTHER tool, which is a fork of ezEML, a web application that streamlines the creation of metadata for ovary tissue specimens. MOTHER's extension of this tool adds additional data categories, including donor and immunohistochemistry information. I built upon the existing Flask-based forms in the tool, adding customized input validation mechanisms and updating form features to ensure invalid submissions do not reach MOTHER's curation stage, the backend system that processes metadata submissions to the MOTHER database. 
 
