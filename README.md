@@ -13,7 +13,7 @@ Regarding this work, I presented posters at the Arizona-Nevada Academy of Scienc
 
 [Proceedings of the Arizona-Nevada Academy of Science, Volume 57 (2025)](https://repository.arizona.edu/bitstream/handle/10150/677000/2025_ANVAS.pdf)
 
-(MOTHER dissemination page link coming soon)
+[Validating Histology Metadata for MOTHER](https://mother-db.org/wp-content/uploads/sites/31/2025/12/Mudd_etal_2025_ValidatingHistologyMetadata.pdf)
 
 Towards the end of my research, I focused mainly on the backend curation process, where I produced comprehensive unit tests using the Pytest framework. The curation process takes XML documents produced by the ezEML+MOTHER tool, and processes the fields to create entries in the MOTHER database. With the complex combination of form selections and entries that can take place for an ovary specimen, all possible selections and outcomes must be tested against the system's backend file validation checks to ensure entries do not violate the requirements put in place by MOTHER. The comprehensive unit tests include checks for all possible form field selections and combinations. Tests either produce an error when expected, or do not error for valid submissions. These checks need to take place prior to curation, and will halt the curation process prior to producing a database entry.
 
